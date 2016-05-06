@@ -5,7 +5,7 @@ author: 'Mindy Mallory'
 gems: [jekyll-paginate]
 
 include:  ['_pages']
-baseurl: '/research-project-template'
+baseurl: '/research-project-template'   
 
 paginate:      10
 paginate_path: '/blog/page:num/'
