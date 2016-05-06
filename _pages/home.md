@@ -1,5 +1,5 @@
 ---
-permalink: /research-project-template/
+permalink: /
 redirect: /introduction/
 layout:   redirect
 
