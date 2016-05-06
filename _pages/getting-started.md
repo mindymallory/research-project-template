@@ -1,5 +1,5 @@
 ---
-permalink: /getting-started/
+permalink: /research-project-template/getting-started/
 layout:    default
 title:     Getting Started with the Reproducible Repository
 nobio:     true
