@@ -1,0 +1,95 @@
+{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+		<title>{% if page.title %}{{ page.title }}{% else %} MindyMallory {% endif %}</title>
+
+		<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+{% if page.blogfeed %}
+		<link rel="alternate" type="application/atom+xml" title="{{ site.name }} — Feed" href="{{ site.url }}/blog/feed.atom" />
+{% endif %}
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/syntax.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper{% if location == '' %} home{% endif %}">
+			<header>
+				<h1>Reproducible Research Project Template</h1>
+				<nav><ul>
+					<li><a {% if location == 'introduction' %}class="active" {% endif %}href="/">Introduction</a></li>
+					<li><a {% if location == 'Introduction to R' %}class="active" {% endif %}href="/intro-to-r/">Introduction to R</a></li>
+					<li><a {% if location == 'Getting Started' %}class="active" {% endif %}href="/getting-started/">Getting Started</a></li>
+					<li><a {% if location == 'Data' %}class="active" {% endif %}href="/data-raw/">Data</a></li>
+					<li><a {% if location == 'Analysis' %}class="active" {% endif %}href="/analysis/">Analysis</a></li>
+          <li><a {% if location == 'Manuscript' %}class="active" {% endif %}href="/manuscript/">Manuscript</a></li>
+          <li><a {% if location == 'Markdown' %}class="active" {% endif %}href="/markdown/">Markdown</a></li>
+          <li><a {% if location == 'Latex' %}class="active" {% endif %}href="/latex/">Latex</a></li>
+          <li><a {% if location == 'Word' %}class="active" {% endif %}href="/need-word/">If Your Collaborators Use Word</a></li>
+          <li><a {% if location == 'Starting Your Own' %}class="active" {% endif %}href="/on-your-own/">Your Own Reproducible Project</a></li>
+          <li><a {% if location == 'background' %}class="active" {% endif %}href="/background/">Background</a></li>
+          <li><a href="https://github.com/mindymallory/research-project-template">Download Repository Contents</a></li>
+
+					
+				</ul></nav>
+			</header>
+			<section>
+				{{ content }}
+			</section>
+			<footer>
+
+				<p><a href="http://mindymallory.github.io/">Mindy Mallory</a> is an assistant professor in the Department of Agricultural and Consumer Economics at the University of Illinois.</p>
+				<p><a href="http://github.com/mindymallory">github</a> | <a href="http://twitter.com/ace_prof">twitter</a> </p>
+
+				<p>
+					
+					<small><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This
+work is licensed under a
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+Commons Attribution-ShareAlike 4.0 International License</a></small>.
+					</p>
+						<p>
+					<small>Webpage made with <a href="http://jekyllrb.com/">Jekyll</a> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
+				</p>
+			</footer>
+		</div>
+		<script src="/js/scale.fix.js"></script>
+{% comment %}
+
+============
+ ATTENTION!
+============
+
+If you are forking this repository, please remove or update the following
+Google Analytics tracking code and disqus shortname before enabling the
+javascript segment below.
+
+{% endcomment %}{% if site.github.owner_name == 'pixelcog' %}
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-70608433-1']);
+			_gaq.push(['_trackPageview']);
+
+			var disqus_shortname  = '',
+			    disqus_identifier = '{{ page.path | split:'/' | last | cgi_escape }}',
+			    disqus_url        = '{{ site.url }}{{ page.url | uri_escape }}'
+			;
+			(function() {
+				var load = function(src){
+					var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = src;
+					var e = document.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e);
+				};
+				load(('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
+				load('//' + disqus_shortname + '.disqus.com/count.js');
+				if (document.getElementById('disqus_thread')) {
+					load('//' + disqus_shortname + '.disqus.com/embed.js');
+				}
+			})();
+		</script>
+{% endif %}
+	</body>
+</html>

@@ -1,3 +1,4 @@
-.Rproj.user
-.Rhistory
-.RData
+_site
+_drafts
+.DS_Store
+Gemfile.lock
