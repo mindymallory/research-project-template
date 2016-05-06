@@ -5,9 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
 		<title>{% if page.title %}{{ page.title }}{% else %} MindyMallory {% endif %}</title>
 
-		<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+		<link rel="canonical" href="{{ site.baseurl }}{{ page.url }}" />
 {% if page.blogfeed %}
-		<link rel="alternate" type="application/atom+xml" title="{{ site.name }} — Feed" href="{{ site.url }}/blog/feed.atom" />
+		<link rel="alternate" type="application/atom+xml" title="{{ site.name }} — Feed" href="{{ site.baseurl }}/blog/feed.atom" />
 {% endif %}
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/syntax.css" />
@@ -76,7 +76,7 @@ javascript segment below.
 
 			var disqus_shortname  = '',
 			    disqus_identifier = '{{ page.path | split:'/' | last | cgi_escape }}',
-			    disqus_url        = '{{ site.url }}{{ page.url | uri_escape }}'
+			    disqus_url        = '{{ site.baseurl }}{{ page.url | uri_escape }}'
 			;
 			(function() {
 				var load = function(src){
