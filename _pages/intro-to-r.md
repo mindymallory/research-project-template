@@ -6,6 +6,14 @@ nobio:     true
 output: md_document
 bibliography: bibliography.bib
 ---
+---
+permalink: /intro-to-r/
+layout:    default
+title:     Introduction to R
+nobio:     true
+output: md_document
+bibliography: bibliography.bib
+---
 
 Getting Started with R and RStudio
 ==================================
@@ -498,14 +506,17 @@ free resources for learning R on the web. With the introduction in this
 chapter, you are well equipped to explore further if you are interested.
 There are a few of links to get you started.
 
-1.  [R Tutorial](http://www.cyclismo.org/tutorial/R/input.html) by Kelly
+1.  [R for Data Science](http://r4ds.had.co.nz/) by Garrett Grolemund
+    and Hadley Wickham
+
+2.  [R Tutorial](http://www.cyclismo.org/tutorial/R/input.html) by Kelly
     Black, Department of Math at University of Georgia.
-2.  [R Resources](http://www.ats.ucla.edu/stat/r/) by idre and UCLA.
-3.  [Tutorials](http://ww2.coastal.edu/kingw/statistics/R-tutorials/) by
+3.  [R Resources](http://www.ats.ucla.edu/stat/r/) by idre and UCLA.
+4.  [Tutorials](http://ww2.coastal.edu/kingw/statistics/R-tutorials/) by
     William King, Coastal Carolina University
-4.  [CodeSchool](http://tryr.codeschool.com/levels/1/challenges/1) by
+5.  [CodeSchool](http://tryr.codeschool.com/levels/1/challenges/1) by
     Code School
-5.  [Quick-R](http://www.statmethods.net/) by Robert Kabacoff
+6.  [Quick-R](http://www.statmethods.net/) by Robert Kabacoff
 
 And there are so many more. Feel free to find and explore on your own.
 

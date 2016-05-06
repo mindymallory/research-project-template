@@ -1,0 +1,17 @@
+{
+    "contents" : "<!doctype html>\n<html>\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta http-equiv=\"refresh\" content=\"1;url={{ page.redirect }}\" />\n\t\t<link rel=\"canonical\" href=\"{{ page.redirect }}\" />\n{% if page.blogfeed %}\n\t\t<link rel=\"alternate\" type=\"application/atom+xml\" title=\"{{ site.name }}\" href=\"{{ site.url }}/home/\" />\n{% endif %}\n\t\t<script type=\"text/javascript\">\n\t\t\twindow.location.href = \"{{ page.redirect }}\"\n\t\t</script>\n\t\t<title>Page Redirection</title>\n\t</head>\n\t<body>\n\t\tIf you are not redirected automatically, follow <a href='{{ page.redirect }}'>this link</a>.\n\t</body>\n</html>",
+    "created" : 1462560658715.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1731134653",
+    "id" : "818CB8DB",
+    "lastKnownWriteTime" : 1462476880,
+    "path" : "~/GitHub/research-project-template/_layouts/redirect.html",
+    "project_path" : "_layouts/redirect.html",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "html"
+}

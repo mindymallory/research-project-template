@@ -1,7 +1,7 @@
 ---
-permalink: /research-project-template/
+permalink: /
 redirect: /introduction/
-layout:   redirect
-
+layout:    redirect
+title:     Home
 ---
 

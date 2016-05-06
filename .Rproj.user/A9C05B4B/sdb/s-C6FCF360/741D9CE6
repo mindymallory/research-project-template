@@ -1,0 +1,17 @@
+{
+    "contents" : "\n<!doctype html>\n<html>\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"chrome=1\" />\n\t\t<title>404 Page Not Found</title>\n\n\t\t<link rel=\"stylesheet\" href=\"/css/main.css\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\" />\n\t\t<!--[if lt IE 9]>\n\t\t<script src=\"//html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n\t\t<![endif]-->\n\t</head>\n\t<body>\n\t\t<div class=\"wrapper\">\n\t\t\t<header>\n\t\t\t\t\n\t\t\t\t<nav><ul>\n\t\t\t\t\t<li><a href=\"/about/\">About</a></li>\n\t\t\t\t\t<li><a href=\"/projects/\">Projects</a></li>\n\t\t\t\t\t<li><a href=\"/blog/\">Blog</a></li>\n\t\t\t\t\t<li><a href=\"/contact/\">Contact</a></li>\n\t\t\t\t</ul></nav>\n\t\t\t</header>\n\t\t\t<section>\n\t\t\t\t<h1 class=\"post-title\">404 Page Not Found</h1>\n\t\t\t\t<p class=\"post-meta\">Oops!</p>\n\t\t\t\t<div class=\"post-banner no-image\">\n\t\t\t\t\t<img src=\"/img/post-banners/no-image.gif\" alt=\"404 Page Not Found\" />\n\t\t\t\t</div>\n\t\t\t\t<p>We&#8217;re sorry, the page you are looking for is not here.</p>\n\t\t\t\t<p>You might want to return to the <a href='/'>home page</a>, or search the <a href='/blog/'>blog archives</a>.</p>\n\t\t\t</section>\n\t\t\t<footer>\n\t\t\t\n\t\t\t</footer>\n\t\t</div>\n\t\t<script src=\"/js/scale.fix.js\"></script>\n\t\t<script type=\"text/javascript\">\n\t\t\tvar _gaq = _gaq || [];\n\t\t\t_gaq.push(['_setAccount', 'UA-20587204-1']);\n\t\t\t_gaq.push(['_trackPageview']);\n\n\t\t\t(function() {\n\t\t\t\tvar ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n\t\t\t\tga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n\t\t\t\tvar s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n\t\t\t})();\n\t\t</script>\n\t</body>\n</html>",
+    "created" : 1462563685103.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "608199273",
+    "id" : "741D9CE6",
+    "lastKnownWriteTime" : 1462563723,
+    "path" : "~/GitHub/research-project-template/404.html",
+    "project_path" : "404.html",
+    "properties" : {
+    },
+    "relative_order" : 9,
+    "source_on_save" : false,
+    "type" : "html"
+}
