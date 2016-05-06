@@ -2,7 +2,7 @@ name:   'Tutorial for Reproducable Research Project Template'
 url:    'http://mindymallory.github.io/research-project-template/'
 author: 'Mindy Mallory'
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate; jekyll-redirect-from]
 
 include:  ['_pages']
 
