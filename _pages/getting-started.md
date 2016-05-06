@@ -1,5 +1,5 @@
 ---
-permalink: /getting-started/
+
 layout:    default
 title:     Getting Started with the Reproducible Repository
 nobio:     true
