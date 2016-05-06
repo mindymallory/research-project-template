@@ -1,5 +1,5 @@
 ---
-permalink: /research-project-template/introduction/
+permalink: /
 layout:    default
 title:     Reproducable Research Project Template
 nobio:     true
