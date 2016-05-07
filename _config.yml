@@ -1,5 +1,5 @@
 name:   'Tutorial for Reproducable Research Project Template'
-url:    'http://mindymallory.github.io/'
+url:    'http://mindymallory.github.io'
 author: 'Mindy Mallory'
 
 gems: [jekyll-paginate]
