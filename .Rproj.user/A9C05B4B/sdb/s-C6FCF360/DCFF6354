@@ -1,12 +1,12 @@
 {
-    "contents" : "name:   'Tutorial for Reproducable Research Project Template'\nurl:    'http://mindymallory.github.io/research-project-template'\nauthor: 'Mindy Mallory'\n\ngems: [jekyll-paginate]\n\ninclude:  ['_pages']\nbaseurl: '/research-project-template'   \n\npaginate:      10\npaginate_path: '/blog/page:num/'\npermalink:     '/blog/:year/:title/'\n\nexcerpt_separator: \"{{ more }}\"\n\nmarkdown: 'kramdown'\ntimezone: 'America/Chicago'\nhighlighter: 'rouge'\n",
+    "contents" : "name:   'Tutorial for Reproducable Research Project Template'\nurl:    'http://mindymallory.github.io/'\nauthor: 'Mindy Mallory'\n\ngems: [jekyll-paginate]\n\ninclude:  ['_pages']\nbaseurl: '/research-project-template'   \n\npaginate:      10\npaginate_path: '/blog/page:num/'\npermalink:     '/blog/:year/:title/'\n\nexcerpt_separator: \"{{ more }}\"\n\nmarkdown: 'kramdown'\ntimezone: 'America/Chicago'\nhighlighter: 'rouge'\n",
     "created" : 1462560634010.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3459426842",
+    "hash" : "2301750884",
     "id" : "DCFF6354",
-    "lastKnownWriteTime" : 1462567419,
+    "lastKnownWriteTime" : 1462583478,
     "path" : "~/GitHub/research-project-template/_config.yml",
     "project_path" : "_config.yml",
     "properties" : {
