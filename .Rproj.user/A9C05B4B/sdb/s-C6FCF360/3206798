@@ -1,12 +1,12 @@
 {
-    "contents" : "<!doctype html>\n<html>\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta http-equiv=\"refresh\" content=\"1;url={{ page.redirect }}\" />\n\t\t<link rel=\"canonical\" href=\"{{ page.redirect }}\" />\n{% if page.blogfeed %}\n\t\t<link rel=\"alternate\" type=\"application/atom+xml\" title=\"{{ site.name }} — Feed\" href=\"{{ site.url }}/blog/feed.atom\" />\n{% endif %}\n\t\t<script type=\"text/javascript\">\n\t\t\twindow.location.href = \"{{ page.redirect }}\"\n\t\t</script>\n\t\t<title>Page Redirection</title>\n\t</head>\n\t<body>\n\t\tIf you are not redirected automatically, follow <a href='{{ page.redirect }}'>this link</a>.\n\t</body>\n</html>",
+    "contents" : "<!doctype html>\n<html>\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta http-equiv=\"refresh\" content=\"1;url={{ page.redirect }}\" />\n\t\t<link rel=\"canonical\" href=\"{{ page.redirect }}\" />\n{% if page.blogfeed %}\n\t\t<link rel=\"alternate\" type=\"application/atom+xml\" title=\"{{ site.name }} — Feed\" href=\"{{site.baseurl}}/blog/feed.atom\" />\n{% endif %}\n\t\t<script type=\"text/javascript\">\n\t\t\twindow.location.href = \"{{ page.redirect }}\"\n\t\t</script>\n\t\t<title>Page Redirection</title>\n\t</head>\n\t<body>\n\t\tIf you are not redirected automatically, follow <a href='{{ page.redirect }}'>this link</a>.\n\t</body>\n</html>",
     "created" : 1462563477018.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2278445825",
+    "hash" : "151058776",
     "id" : "3206798",
-    "lastKnownWriteTime" : 1462563515,
+    "lastKnownWriteTime" : 1462583564,
     "path" : "C:/Users/mallorym/Desktop/tutorialwebsitetemplate/pixelcog.com-gh-pages/_layouts/redirect.html",
     "project_path" : null,
     "properties" : {
