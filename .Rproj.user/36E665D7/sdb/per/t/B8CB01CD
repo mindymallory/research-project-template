@@ -1,0 +1,18 @@
+{
+    "contents" : "@article{akerlof1970vthe,\n  title={VThe Market for Lemons: Qualitative Uncertainty and the Market MechanismV},\n  author={Akerlof, George},\n  journal={Quarterly Journal of Economics},\n  volume={84},\n  year={1970}\n}\n\n@article{johansen1988statistical,\n  title={Statistical analysis of cointegration vectors},\n  author={Johansen, S{\\o}ren},\n  journal={Journal of economic dynamics and control},\n  volume={12},\n  number={2},\n  pages={231--254},\n  year={1988},\n  publisher={Elsevier}\n}",
+    "created" : 1461677171538.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "125925021",
+    "id" : "B8CB01CD",
+    "lastKnownWriteTime" : 1461677269,
+    "path" : "~/research-project-template/bibliography.bib",
+    "project_path" : "bibliography.bib",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "text"
+}

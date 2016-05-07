@@ -1,0 +1,17 @@
+{
+    "contents" : ".Rproj.user\n.Rhistory\n.RData\n",
+    "created" : 1461677012480.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1930569958",
+    "id" : "B41E8257",
+    "lastKnownWriteTime" : 1461677005,
+    "path" : "~/research-project-template/.gitignore",
+    "project_path" : ".gitignore",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "gitignore"
+}
