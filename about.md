@@ -1,4 +1,5 @@
 ---
+permalink: research-project-template/
 layout: page
 title: About
 ---
