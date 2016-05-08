@@ -1,5 +1,5 @@
 ---
-permalink: /research-project-template/about
+permalink: mindymallory.githup.io/research-project-template/about
 layout: page
 title: About
 ---
