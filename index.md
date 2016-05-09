@@ -1,15 +1,13 @@
 ---
 layout: page
-title: Tutorial
-tagline: Reproducible Research Project Template
+title: Reproducible Research Project Template
+tagline: The Tutorial
 description: Minimal tutorial on writing a reproducible manuscript with R, and RStudio
 output: md_document
 bibliography: bibliography.bib
 ---
 
-
 <!-- After knitting, paste the yaml header above  -->
-
 Background
 ==========
 
@@ -40,8 +38,12 @@ But in that failure, I learned a lot about how a reproducible research
 project should be organized. I built this template for my future
 students and for my future self.
 
+Table of Contents
+=================
 
-
+[Introduction](mindymallory.github.io/research-project-template/introduction)
+[Introduction to
+R](mindymallory.github.io/research-project-template/intro-to-r)
 
 References
 ----------
