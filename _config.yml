@@ -1,23 +1,42 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
+name: Your New Jekyll Site
+description: Blogging about stuffs
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-permalink: pretty 
-gems: [jekyll-paginate]
+aboutPage: true
 
-# Setup
-title:               Reproducible Research Project Template
-tagline:             'Tutorial'
-description:         'A template for starting a reproducible research project with R and RStudio'
-url:                 http://mindymallory.github.io
-baseurl:             'http://mindymallory.github.io/'
-paginate:            5
+markdown: redcarpet
+highlighter: pygments
 
-# About/contact
-author:
-  name:              Mindy L. Mallory
-  url:               http://mindymallory.github.io
-  email:             mallorym@illinois.edu
+paginate: 20
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
 
-# Custom vars
-version:             
+# Details for the RSS feed generator
+url:            'http://your-blog-url.example.com'
+author:         'Your Name'
+authorTwitter:  'YourTwitterUsername'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
