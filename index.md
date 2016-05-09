@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Reproducible Research Project Template
-tagline: The Tutorial
+title: Tutorial
+tagline: Reproducible Research Project Template
 description: Minimal tutorial on writing a reproducible manuscript with R, and RStudio
 output: md_document
 bibliography: bibliography.bib
