@@ -10,7 +10,7 @@ title:               Reproducible Research Project Template
 tagline:             'Tutorial'
 description:         'A template for starting a reproducible research project with R and RStudio'
 url:                 http://mindymallory.github.io
-baseurl:             'http://mindymallory.github.io/research-project-template/'
+baseurl:             'http://mindymallory.github.io/'
 paginate:            5
 
 # About/contact
