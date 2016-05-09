@@ -42,7 +42,7 @@ students and for my future self.
 Table of Contents
 =================
 
-[Introduction](/introduction)  
+[Introduction](/research-project-template/introduction)  
 [Introduction to
 R](mindymallory.github.io/research-project-template/intro-to-r)
 

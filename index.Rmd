@@ -18,7 +18,7 @@ But in that failure, I learned a lot about how a reproducible research project s
 
 # Table of Contents
 
-[Introduction](/introduction)  
+[Introduction](/research-project-template/introduction)  
 [Introduction to R](mindymallory.github.io/research-project-template/intro-to-r)
 
 ## References
