@@ -1,6 +1,6 @@
 # Dependencies
 gems:                [jekyll-paginate]
-highlighter:         pygments
+
 
 # Permalinks
 #
