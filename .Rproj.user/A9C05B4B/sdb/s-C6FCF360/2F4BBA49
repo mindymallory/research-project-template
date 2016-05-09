@@ -1,12 +1,12 @@
 {
     "contents" : "# Dependencies\ngems:                [jekyll-paginate]\n\n\n# Permalinks\n#\n# Use of `relative_permalinks` ensures post links from the index work properly.\npermalink:           pretty\n#relative_permalinks: true\n\n# Setup\ntitle:               Hic sunt leones\ntagline:             \"AKA Giovanni Santini's personal blog. For real, yeah.\"\ndescription:         'A blog made from an IT lover about IT and other stuff (insert madness here). Based on the awesome <a href=\"https://github.com/poole/lanyon\" target=\"_blank\">Lanyon</a> theme, made by <a href=\"https://twitter.com/mdo\" target=\"_blank\">@mdo</a>.'\nurl:                 http://mindymallory.github.io/\nbaseurl:             /research-project-template\npaginate:            5\n\n# About/contact\nauthor:\n  name:              Giovanni Santini\n  url:               https://www.facebook.com/giovanni.santini\n  email:             giovannisantini93@yahoo.it\n\n# Custom vars\nversion:             1.0.3\n\n# This website's repo\ngithub:\n  repo:           https://github.com/ItachiSan/itachisan.github.io\n\nexclude:\n  - templates\n  - LICENSE.md\n  - README.md\n  - LICENSE.lanyon\n  - README.lanyon\n\n## \"Jekyll Now\" template stuff here\n# Includes an icon in the footer for each username you enter\nfooter-links:\n  dribbble:\n  email:\n  facebook:\n  flickr:\n  github: ItachiSan\n  instagram:\n  linkedin:\n  pinterest:\n  rss: # just type anything here for a working RSS icon, make sure you set the \"url\" above!\n  twitter: \n  stackoverflow: # your stackoverflow profile, e.g. \"users/50476/bart-kiers\"\n  youtube: # channel/<your_long_string> or user/<user-name>\n\n# Enter your Disqus shortname (not your username) to enable commenting on posts\n# You can find your shortname on the Settings page of your Disqus account\ndisqus: giovannisantini\n\n# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking\ngoogle_analytics: UA-61816764-1\n\n# Personal work: load share buttons if setted to 'true'\nsharing:\n  addtoany: true\n  facebook: false\n  gplus: false\n\n# Google Translator support\ntranslate:\n  enabled: false\n  language: en\n  meta-config: b63bed9405924efe-1d1f2e87fc0bdbad-g105a614c17a1f5ce-12\n",
-    "created" : 1462818171453.000,
+    "created" : 1462821710699.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "3215850822",
-    "id" : "D050463",
-    "lastKnownWriteTime" : 1462820778,
+    "id" : "2F4BBA49",
+    "lastKnownWriteTime" : 1462821694,
     "path" : "~/GitHub/research-project-template/_config.yml",
     "project_path" : "_config.yml",
     "properties" : {

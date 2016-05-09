@@ -1,4 +1,5 @@
 ---
+permalink: {{ site.baseurl }}/about
 layout: page
 title: About
 ---
