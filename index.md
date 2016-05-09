@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Reproducible Research Project Template
-tagline: The Tutorial
+title: Tutorial
+tagline: for a Reproducible Research Project
 description: Minimal tutorial on writing a reproducible manuscript with R, and RStudio
 output: md_document
 bibliography: bibliography.bib
 ---
+
 
 <!-- After knitting, paste the yaml header above  -->
 
@@ -36,15 +37,24 @@ Table of Contents
 
 [Introduction to R](/research-project-template/intro-to-r)  
 [Getting Started](/research-project-template/getting-started)  
-[Data](/research-project-template/data)  
+[Data](/research-project-template/data-raw)  
 [Analysis](/research-project-template/analysis)  
-[Manuscript](/research-project-template/Manuscript)  
+[Manuscript](/research-project-template/manuscript)  
 [Markdown](/research-project-template/markdown)  
 [Latex](/research-project-template/latex)  
 [If Your Collaborators Use Word](/research-project-template/need-word)  
 [Your Own Reproducible Research Prject](on-your-own)  
 [Download Repository
 Contents](https://github.com/mindymallory/research-project-template/tree/master)
+
+On Your Own
+-----------
+
+Once you understand how all the peices fit together you can modify these
+files to conduct your own reproducable project. Just make sure your
+`data-raw` is accessed by your analysis scripts and that your results
+are stored in the `anlaysis-output` folder. Then make sure your
+manuscript pulls the data and analysis results automatically.
 
 Background
 ----------

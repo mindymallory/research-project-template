@@ -1,0 +1,17 @@
+{
+    "contents" : "---\npermalink: /on-your-own/\nlayout:    default\ntitle:     Starting Your Own\nnobio:     true\noutput: md_document\n---\n\nStarting Your Own Reproducable Project\n======================================\n\nOnce you understand how all the peices fit together you can modify these\nfiles to conduct your own reproducable project. Just make sure your\n`data-raw` is accessed by your analysis scripts and that your results\nare stored in the `anlaysis-output` folder. Then make sure your\nmanuscript pulls the data and analysis results automatically.\n",
+    "created" : 1462824758453.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3653438571",
+    "id" : "15FB29C9",
+    "lastKnownWriteTime" : 1462485435,
+    "path" : "~/GitHub/research-project-template/pages/on-your-own.md",
+    "project_path" : "pages/on-your-own.md",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
