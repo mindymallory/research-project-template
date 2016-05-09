@@ -9,8 +9,45 @@ bibliography: bibliography.bib
 
 <!-- After knitting, paste the yaml header above  -->
 
+Introduction
+------------
+
+The Github repository located
+[here](https://github.com/mindymallory/research-project-template)
+contains a template for a reproducible research project. The fundamental
+idea of reproducible research is that the steps that take your research
+from raw data to manuscript, thesis, or report should be fully
+automated. This way, your work can be checked by your adviser, mentors,
+collaborators, others working in your area, journal reviewers, and your
+future self.
+
+R and RStudio are an excellent vehicle for conducting reproducible
+research. You write manuscripts and reports in `.rmarkdown` documents
+that includes code chunks that perform analysis. The code chunks are
+evaluated by `R` and incorporated in the document by the tools in the
+`knitr` package to produce a markdown `.md` document. From there a
+program called `pandoc` converts your markdown document to whatever file
+format you like: PDF (formatted with latex .csl files), html, or
+Microsoft Word. This all happens without the user really knowing what is
+going on, which makes it easy to get started.
+
+Table of Contents
+-----------------
+
+[Introduction](/research-project-template/introduction)  
+[Introduction to R](/research-project-template/intro-to-r) [Getting
+Started](/research-project-template/getting-started)
+[Data](/research-project-template/data)
+[Analysis](/research-project-template/analysis)
+[Manuscript](/research-project-template/Manuscript)
+[Markdown](/research-project-template/markdown)
+[Latex](/research-project-template/latex) [If Your Collaborators Use
+Word](/research-project-template/need-word) [Your Own Reproducible
+Research Prject](on-your-own) [Download Repository
+Contents](https://github.com/mindymallory/research-project-template/tree/master)
+
 Background
-==========
+----------
 
 I became interested in reproducible research because I was tired of
 being terrified of my own analysis. I was constantly petrified someone
@@ -38,13 +75,6 @@ the results from this project.
 But in that failure, I learned a lot about how a reproducible research
 project should be organized. I built this template for my future
 students and for my future self.
-
-Table of Contents
-=================
-
-[Introduction](/research-project-template/introduction)  
-[Introduction to
-R](mindymallory.github.io/research-project-template/intro-to-r)
 
 References
 ----------
