@@ -1,13 +1,11 @@
 ---
-layout: page
-title: Tutorial
-tagline: Reproducible Research Project Template
-description: Minimal tutorial on writing a reproducible manuscript with R, and RStudio
+permalink: /background/
+layout:    default
+title:     Background
+nobio:     true
 output: md_document
 bibliography: bibliography.bib
 ---
-
-
 <!-- After knitting, paste the yaml header above  -->
 
 Background
@@ -39,9 +37,6 @@ the results from this project.
 But in that failure, I learned a lot about how a reproducible research
 project should be organized. I built this template for my future
 students and for my future self.
-
-
-
 
 References
 ----------
