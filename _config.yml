@@ -8,7 +8,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Template for a Reproducible Research Project
+title : Reproducible Research Project Template
 author :
   name : Mindy Mallory
   email : mallorym@illinois.edu

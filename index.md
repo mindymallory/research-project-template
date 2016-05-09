@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Tutorial
-tagline: for a Reproducible Research Project
+tagline: 
 description: Minimal tutorial on writing a reproducible manuscript with R, and RStudio
 output: md_document
 bibliography: bibliography.bib
 ---
-
 
 <!-- After knitting, paste the yaml header above  -->
 
