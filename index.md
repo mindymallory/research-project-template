@@ -34,16 +34,16 @@ going on, which makes it easy to get started.
 Table of Contents
 -----------------
 
-[Introduction](/research-project-template/introduction)  
-[Introduction to R](/research-project-template/intro-to-r) [Getting
-Started](/research-project-template/getting-started)
-[Data](/research-project-template/data)
-[Analysis](/research-project-template/analysis)
-[Manuscript](/research-project-template/Manuscript)
-[Markdown](/research-project-template/markdown)
-[Latex](/research-project-template/latex) [If Your Collaborators Use
-Word](/research-project-template/need-word) [Your Own Reproducible
-Research Prject](on-your-own) [Download Repository
+[Introduction to R](/research-project-template/intro-to-r)  
+[Getting Started](/research-project-template/getting-started)  
+[Data](/research-project-template/data)  
+[Analysis](/research-project-template/analysis)  
+[Manuscript](/research-project-template/Manuscript)  
+[Markdown](/research-project-template/markdown)  
+[Latex](/research-project-template/latex)  
+[If Your Collaborators Use Word](/research-project-template/need-word)  
+[Your Own Reproducible Research Prject](on-your-own)  
+[Download Repository
 Contents](https://github.com/mindymallory/research-project-template/tree/master)
 
 Background
