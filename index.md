@@ -8,6 +8,7 @@ bibliography: bibliography.bib
 ---
 
 <!-- After knitting, paste the yaml header above  -->
+
 Background
 ==========
 
@@ -41,7 +42,7 @@ students and for my future self.
 Table of Contents
 =================
 
-[Introduction](mindymallory.github.io/research-project-template/introduction)
+[Introduction](/introduction)  
 [Introduction to
 R](mindymallory.github.io/research-project-template/intro-to-r)
 
