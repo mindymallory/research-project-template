@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</div>
+
+{% if site.sharing.facebook == true %}
+<div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+{% endif %}
+{% if site.sharing.gplus == true %}
+<div class="g-plus" data-href="{{ site.url }}{{ page.url }}" data-action="share"></div>
+{% endif %}
+{% include addtoany.html %}
