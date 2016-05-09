@@ -1,5 +1,5 @@
 ---
-permalink: /about/
+permalink: /research-project-template/about/
 layout: page
 title: About
 ---
