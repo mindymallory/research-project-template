@@ -1,12 +1,12 @@
 {
-    "contents" : "name:   'Tutorial for Reproducable Research Project Template'\nurl:    'http://mindymallory.github.io'\nauthor: 'Mindy Mallory'\n\ngems: [jekyll-paginate]\n\ninclude:  ['_pages']\nbaseurl: '/research-project-template'   \n\npaginate:      10\npaginate_path: '/blog/page:num/'\npermalink:     '/blog/:year/:title/'\n\nexcerpt_separator: \"{{ more }}\"\n\nmarkdown: 'kramdown'\ntimezone: 'America/Chicago'\nhighlighter: 'rouge'\n",
+    "contents" : "# Permalinks\n#\n# Use of `relative_permalinks` ensures post links from the index work properly.\n\n\ngems: [jekyll-paginate]\n\n# Setup\ntitle:               Reproducible Research Project Template\ntagline:             'Tutorial'\ndescription:         'A template for starting a reproducible research project with R and RStudio'\nurl:                 http://mindymallory.github.io\nbaseurl:             'http://mindymallory.github.io/research-project-template/'\npaginate:            5\n\n# About/contact\nauthor:\n  name:              Mindy L. Mallory\n  url:               http://mindymallory.github.io\n  email:             mallorym@illinois.edu\n\n# Custom vars\nversion:             \n",
     "created" : 1462560634010.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1757819696",
+    "hash" : "1564580600",
     "id" : "DCFF6354",
-    "lastKnownWriteTime" : 1462584758,
+    "lastKnownWriteTime" : 1462815026,
     "path" : "~/GitHub/research-project-template/_config.yml",
     "project_path" : "_config.yml",
     "properties" : {
