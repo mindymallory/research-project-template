@@ -124,7 +124,7 @@ command given in the console is kept.
 The lower right hand corner holds several tabs: *Files*, *Plots*,
 *Packages*, *Help*, and *Viewer*. More on these things later.
 
-![Screenshot of RStudio](http://mindymallory.github.io/research-project-template/images/rstudio.png)
+![Screenshot of RStudio](http://mindymallory.github.io/research-project-template/images/rstudio.PNG)
 
 The power of R, is not in the line by line execution of commands, it is
 in writing scripts were commands can be stored and reused. In the upper
