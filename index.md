@@ -42,7 +42,6 @@ Table of Contents
 [Markdown](/research-project-template/markdown)  
 [Latex](/research-project-template/latex)  
 [If Your Collaborators Use Word](/research-project-template/need-word)  
-[Your Own Reproducible Research Prject](on-your-own)  
 [Download Repository
 Contents](https://github.com/mindymallory/research-project-template/tree/master)
 
