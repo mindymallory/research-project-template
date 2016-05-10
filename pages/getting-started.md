@@ -11,10 +11,11 @@ Getting Started
 ===============
 
 First download [the
-repository](http://mindymallory.github.io/research-project-template/) to
-your local machine. If you use Github, then this will mean cloning the
-repository into a new R project. If you are not a Github user, simply
-click 'Download Zip' and extract the file to a convenient location.
+repository](https://github.com/mindymallory/research-project-template)
+to your local machine. If you use Github, then this will mean cloning
+the repository into a new R project. If you are not a Github user,
+simply click 'Download Zip' and extract the file to a convenient
+location.
 
 Repository Contents
 -------------------
