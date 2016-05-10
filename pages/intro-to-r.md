@@ -6,14 +6,6 @@ nobio:     true
 output: md_document
 bibliography: bibliography.bib
 ---
----
-permalink: /intro-to-r/
-layout:    default
-title:     Introduction to R
-nobio:     true
-output: md_document
-bibliography: bibliography.bib
----
 
 Getting Started with R and RStudio
 ==================================
@@ -82,7 +74,7 @@ Download R
 Go to [<https://www.r-project.org/>](https://www.r-project.org/), where
 the software is available for downloading.
 
-![Screenshot of r-project.org](research-project-template/images/Rpojectsite.jpg)
+![Screenshot of r-project.org](http://mindymallory.github.io/research-project-template/images/Rpojectsite.jpg)
 
 Click "download R", and scroll to a server mirror close to you. It does
 not matter much which one you choose; mirrors that are physically closer
