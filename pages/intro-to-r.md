@@ -82,7 +82,7 @@ Download R
 Go to [<https://www.r-project.org/>](https://www.r-project.org/), where
 the software is available for downloading.
 
-![Screenshot of r-project.org](/images/Rpojectsite.jpg)
+![Screenshot of r-project.org](research-project-template/images/Rpojectsite.jpg)
 
 Click "download R", and scroll to a server mirror close to you. It does
 not matter much which one you choose; mirrors that are physically closer
