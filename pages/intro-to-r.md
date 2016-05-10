@@ -84,13 +84,13 @@ the United States, you are not likely to notice a difference.
 
 When you click a mirror you will see a screen like the following:
 
-![Screenshot of R Download Links](/images/rdownload.jpg)
+![Screenshot of R Download Links](http://mindymallory.github.io/research-project-template/images/rdownload.jpg)
 
 Click the link for your appropriate operating system, and click "base"
 on the next screen. Finally, if you are running windows you will see the
 following screen:
 
-![Screenshot of Windows .exe Download Links](/images/windowsexe.jpg)
+![Screenshot of Windows .exe Download Links](http://mindymallory.github.io/research-project-template/images/windowsexe.jpg)
 
 Click the *Download R 3.2.1 for Windows* link and run the installation
 file. Note that the release number may be different since new releases
@@ -105,7 +105,7 @@ Downloading RStudio is a bit easier. Go to
 and the download links are on one page for all supported operating
 systems. Click your operating system and run the installation file.
 
-![Screenshot of RStudio Download Links](/images/downloadrstudio.jpg)
+![Screenshot of RStudio Download Links](http://mindymallory.github.io/research-project-template/images/downloadrstudio.jpg)
 
 Congratulations, you now have R and RStudio installed!
 
@@ -124,7 +124,7 @@ command given in the console is kept.
 The lower right hand corner holds several tabs: *Files*, *Plots*,
 *Packages*, *Help*, and *Viewer*. More on these things later.
 
-![Screenshot of RStudio](/images/rstudio.png)
+![Screenshot of RStudio](http://mindymallory.github.io/research-project-template/images/rstudio.png)
 
 The power of R, is not in the line by line execution of commands, it is
 in writing scripts were commands can be stored and reused. In the upper
@@ -462,7 +462,7 @@ Now try the code from above.
     library(ggplot2)
     qplot(DATA$Height)
 
-![](/images/unnamed-chunk-20-1.png)
+![](http://mindymallory.github.io/research-project-template/images/unnamed-chunk-20-1.png)
 
 Now we were able to make a frequency plot for height! It shows how many
 observations at each height there are in the data set.
@@ -533,7 +533,7 @@ Navigate to where
 [CZ2015](https://www.quandl.com/data/CME/CZ2015-Corn-Futures-December-2015-CZ2015)
 (December 2015 Corn future) is housed.
 
-![Screenshot of CZ2015 page on Quandl.com](/images/quandlCZ2015.png)
+![Screenshot of CZ2015 page on Quandl.com](http://mindymallory.github.io/research-project-template/images/quandlCZ2015.png)
 
 There is a button that says 'download' above the chart of the prices.
 When you click it, you will see file format options. We will work with
@@ -787,7 +787,7 @@ will put *Date* along the x-axis and *Settle* prices along the y-axis.
 
     plot(CZ2015$Date, CZ2015$Settle)
 
-![](/images/unnamed-chunk-9-1.png)
+![](http://mindymallory.github.io/research-project-template/images/unnamed-chunk-9-1.png)
 
 This plot is OK, but it is not exactly up to par when you think about
 what charts in finance, for example, usually look like. The `quantmod`
@@ -833,7 +833,7 @@ format the `chartSeries()` function expects.
     column to "Close". This is because `chartSeries()` wants to see
     columns Open, High, Low, Close, and Volume.
 
-![](/images/unnamed-chunk-12-1.png)
+![](http://mindymallory.github.io/research-project-template/images/unnamed-chunk-12-1.png)
 
 [1] Documentation for the USDA NASS API can be found
 <http://quickstats.nass.usda.gov/api>. At this point, do not worry about
